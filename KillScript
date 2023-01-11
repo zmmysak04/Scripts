@@ -1,5 +1,4 @@
-local cmd = ("KillAll")
-local players = game.Workspace.Players:GetChildren
+local players = game.Workspace.Players:GetChildren --IHateOcs
 
 players.Children:GetChildren("Humanoid"):Connect(function("MouseButton1Click") then
 
